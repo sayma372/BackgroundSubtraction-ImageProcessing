@@ -1,11 +1,11 @@
 # BackgroundSubtraction-ImageProcessing
 A GMM and SVM-based hybrid background subtraction system. It merges image processing and machine learning to enhance dynamic accuracy. Applicable for surveillance, object tracking, and real-time video analysis.
-# ????️ Background Subtraction Based on Image Processing and Machine Learning
+# Background Subtraction Based on Image Processing and Machine Learning
 
 A hybrid background subtraction system based on **Gaussian Mixture Models (GMM)** and **Support Vector Machines (SVM)** is implemented in this project to enhance the accuracy of moving object detection in video streams. Traditional image processing and machine learning are combined for more accurate results under dynamic scenarios.
 ---
 
-## ???? Objectives
+## Objectives
 
 - Detect foreground objects from background accurately in real-time videos
 - Minimize false positives due to shadows, flicker, and noise
@@ -13,7 +13,7 @@ A hybrid background subtraction system based on **Gaussian Mixture Models (GMM)*
 
 ---
 
-## ????️ Technologies Used
+##  Technologies Used
 
 - Python 3.8+
 - OpenCV
@@ -25,7 +25,7 @@ A hybrid background subtraction system based on **Gaussian Mixture Models (GMM)*
 
 ---
 
-## ???? How It Works
+## How It Works
 
 1. **GMM Background Subtraction**  
    Uses OpenCV's Gaussian Mixture Model to identify foreground pixels.
@@ -41,30 +41,30 @@ A hybrid background subtraction system based on **Gaussian Mixture Models (GMM)*
 
 ---
 
-## ???? Getting Started
+##  Getting Started
 
-### ???? Installation
+###  Installation
 ```bash
 git clone https://github.com/your-username/BackgroundSubtraction-ImageProcessing.git
 cd BackgroundSubtraction-ImageProcessing
 pip install -r requirements.txt
 ```
-#### ???? Results
+####  Results
 Average F1-score: 0.89
 
 Real-time performance: ~20 FPS
 
 Improved noise and shadow removal
 
-#### ???? Future Improvements
+#### Future Improvements
 Implement lightweight deep learning (e.g., MobileNet)
 
 Deploy on edge devices (Jetson Nano, Raspberry Pi)
 
 Implement multi-class object classification
 
-#### ???? License
+####  License
 This project is academic and research only.
 
-#### ???? Contributions
+####  Contributions
 Pull requests are welcome! Open issues for suggestions or bugs anytime.
